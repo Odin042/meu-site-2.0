@@ -1,4 +1,3 @@
-import React from 'react';
 import * as S from './styles.ts';
 import AvatarPerson from '../../components/Avatar/Avatar.tsx';
 import SideBar from '../../components/SideBar/SideBar.tsx';

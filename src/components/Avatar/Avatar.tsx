@@ -1,4 +1,3 @@
-import React from "react";
 import * as S from "./styles.ts";
 import Avatar from "@mui/material/Avatar";
 import avatarImage from "../../assets/avatar.jpeg";

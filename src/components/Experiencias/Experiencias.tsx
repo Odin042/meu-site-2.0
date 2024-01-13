@@ -1,7 +1,5 @@
-import React from "react";
 import * as S from "./styles.ts";
-import { Container } from "./../Avatar/styles";
-import { Chip, Divider, Typography } from "@mui/material";
+import { Chip, Typography } from "@mui/material";
 
 const MockExperiencias = [
   {

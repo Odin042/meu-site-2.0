@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import * as S from "./styles.ts";
 import SideBar from "../SideBar/SideBar.tsx"; 
 
@@ -6,7 +6,7 @@ import SideBar from "../SideBar/SideBar.tsx";
 export const MenuPage = () => {
   const [selectedComponent, setSelectedComponent] = useState(null);
 
-  const handleButtonClick = (component) => {
+  const handleButtonClick = ({component}:any) => {
     setSelectedComponent(component);
   };
 
