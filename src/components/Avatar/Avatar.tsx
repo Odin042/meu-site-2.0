@@ -1,4 +1,3 @@
-import React from "react";
 import * as S from "./styles.ts";
 import Avatar from "@mui/material/Avatar";
 import avatarImage from "../../assets/avatar.jpeg";
@@ -27,10 +26,14 @@ const AvatarPerson = () => {
       <Typography variant="h2">Guilherme Fernandes</Typography>
       <Divider
         variant="middle"
-        sx={{ width: "85%", margin: "20px 0 0 100px", "@media (max-width: 600px)": {
-          width: 250,
-          margin: "20px 0 0 170px",
-        }, }}
+        sx={{
+          width: "85%",
+          margin: "20px 0 0 100px",
+          "@media (max-width: 600px)": {
+            width: 250,
+            margin: "20px 0 0 170px",
+          },
+        }}
       />
       <S.WrapperInfos>
         <S.Infos>
@@ -63,15 +66,14 @@ const AvatarPerson = () => {
       </S.WrapperInfos>
       <S.Description>
         <Typography variant="subtitle1">
-          "Apaixonado pelo que faço e pela vida. Assim como sou empolgado pela
-          vida <br />
-          também sou apaixonado pelo desafio de ser programador e o mundo que{" "}
+          Apaixonado pelo que faço e pela vida, assim como sou entusiasmado pela
+          vida.
           <br />
-          ele me proporciona. Afinal de contas conhecimento e a unica riqueza
-          impossivel <br />
-          de ser roubada. Sou atleta da vida real, gamer em alguns momentos e
-          gosto de <br />
-          codar algumas ideias as vezes"
+          Também sou apaixonado pelo desafio de ser programador e pelo mundo que
+          ele me proporciona.
+          <br />
+          Sou atleta da vida real, gamer em alguns momentos e gosto de codificar
+          algumas ideias às vezes.
         </Typography>
       </S.Description>
     </S.Container>

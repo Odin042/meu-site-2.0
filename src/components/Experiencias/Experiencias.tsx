@@ -1,7 +1,5 @@
-import React from "react";
 import * as S from "./styles.ts";
-import { Container } from "./../Avatar/styles";
-import { Chip, Divider, Typography } from "@mui/material";
+import { Chip,  Typography } from "@mui/material";
 
 const MockExperiencias = [
   {
@@ -10,15 +8,15 @@ const MockExperiencias = [
     empresa: "Stefanini Brasil",
     periodo: "2023 - Atualmente",
     descricao:
-      "Atuando como desenvolvedor front-end, utilizando ReactJS, Typescript, NodeJS, Styled Components, Material UI, Git, Jira, Confluence, Bitbucket, Jenkins, Kubernetes. Desenvolvendo novas funcionalidades para os produtos e mantendo as existentes.",
+      "Atuo como desenvolvedor front-end, utilizando ReactJS, Typescript, NodeJS, Styled Components, Material UI, Git, Jira, Confluence, Bitbucket, Jenkins e Kubernetes. Desenvolvo novas funcionalidades para os produtos, além de realizar a manutenção das existentes.",
   },
   {
-    cargo: "Desenvolvedor Front-end Junior @ Cliente ELO",
+    cargo: "Desenvolvedor Front-end Júnior @ Cliente ELO",
     status: "Anterior",
     empresa: "Stefanini Brasil",
     periodo: "2022 - 2023",
     descricao:
-      "Atuava como desenvolvedor front-end, utilizando ReactJS, Typescript, NodeJS, Styled Components, StoryBook, Git, Gitlab, ServiceNow, Confluence, AWS. Desenvolvendo novas funcionalidade para a área de promoções e produtos e participei de um projeto iniciado do zero.",
+      "Atuava como desenvolvedor front-end, utilizando ReactJS, Typescript, NodeJS, Styled Components, StoryBook, Git, Gitlab, ServiceNow, Confluence e AWS. Desenvolvi novas funcionalidades para a área de promoções e produtos, além de ter participado de um projeto iniciado do zero.",
   },
   {
     cargo: "Desenvolvedor Front-end",
@@ -26,7 +24,7 @@ const MockExperiencias = [
     empresa: "Mobills - Toro Investimentos",
     periodo: "2022 - 2022",
     descricao:
-      "Atuava como desenvolvedor front-end, utilizando ReactJS, Typescript, NodeJS, Styled Components, StoryBook, Git, Gitlab, Zeplin, Confluence, Trello. Desenvolvia novas funcionalidades para um app de emprestimos.",
+      "Atuava como desenvolvedor front-end, utilizando ReactJS, Typescript, NodeJS, Styled Components, StoryBook, Git, Gitlab, ServiceNow, Confluence e AWS. Desenvolvi novas funcionalidades para a área de promoções e produtos, além de ter participado de um projeto iniciado do zero.",
   },
   {
     cargo: "Desenvolvedor Fullstack",
@@ -34,7 +32,7 @@ const MockExperiencias = [
     empresa: "Tech Mahindra",
     periodo: "2022 - 2022",
     descricao:
-      "Atuava como desenvolvedor fullStack, utilizando ReactJS,  Prime React, Git, Azure, MySql. Desenvolvia novas funcionalidades para um ERP de para uma marca de tintas para gestao de vendas e estoque.",
+      "Atuava como desenvolvedor full-stack, utilizando ReactJS, Prime React, Git, Azure e MySQL. Desenvolvia novas funcionalidades para um ERP de uma marca de tintas, focado na gestão de vendas e estoque.",
   },
   {
     cargo: "Desenvolvedor Web",
@@ -42,7 +40,7 @@ const MockExperiencias = [
     empresa: "Catral",
     periodo: "2021 - 2022",
     descricao:
-      "Atuava como desenvolvedor fullStack, utilizando ReactJS, CSS,  Chakra UI, Git, Trello, MongoDB, VTEX IO. Desenvolvia novas ferramentas para emissao de nota fiscal, rastreio de produtos e reformulação do site de ecommerce.",
+      "Atuava como desenvolvedor full-stack, utilizando ReactJS, CSS, Chakra UI, Git, Trello, MongoDB e VTEX IO. Desenvolvia novas ferramentas para emissão de nota fiscal, rastreio de produtos e reformulação do site de e-commerce.",
   },
   {
     cargo: "Analista de Suporte Pleno",
@@ -50,7 +48,7 @@ const MockExperiencias = [
     empresa: "Catral",
     periodo: "2018 - 2021",
     descricao:
-      "Atuava como suporte tecnico da empresa onde presta serviço para os outros colaboradores, realizando manutencao de computadores e impressoras, e auxiliando na manutencao de redes.",
+      "Atuava como suporte técnico na empresa, prestando serviços aos demais colaboradores. Realizava a manutenção de computadores e impressoras, além de auxiliar na manutenção de redes.",
   },
   {
     cargo: "Analista de Suporte Junior",
@@ -58,20 +56,20 @@ const MockExperiencias = [
     empresa: "Novo Mundo Moveis e Utilidades",
     periodo: "2016 - 2018",
     descricao:
-      "Atuava na area de suporte tecnico, realizando manutencao de computadores e impressoras, e auxiliando na manutencao de redes, fazia trabalho de campo, coordenada uma equipe de atendimento e tecnicos de compo.",
+      "Atuava na área de suporte técnico, realizando manutenção de computadores e impressoras, além de auxiliar na manutenção de redes. Desempenhava atividades em campo, coordenava uma equipe de atendimento e técnicos de campo.",
   },
   {
     cargo: "Operador de teleprocessamento",
     status: "Anterior",
-    empresa: "Novo Mundo Moveis e Utilidades",
+    empresa: "Novo Mundo Móveis e Utilidades",
     periodo: "2013 - 2016",
     descricao:
-      "Atuava na area de suporte tecnico, realizando manutencao de computadores e impressoras, e auxiliando na manutencao de redes.",
+      "Atuava na área de suporte técnico, realizando manutenção de computadores e impressoras, além de prestar auxílio na manutenção de redes.",
   },
   {
-    cargo: "Estagiario",
+    cargo: "Estagiário",
     status: "Anterior",
-    empresa: "Novo Mundo Moveis e Utilidades",
+    empresa: "Novo Mundo Móveis e Utilidades",
     periodo: "2013 - 2013",
     descricao:
       "Atuava na area de suporte tecnico, realizando manutencao de computadores e impressoras, e auxiliando na manutencao de redes.",

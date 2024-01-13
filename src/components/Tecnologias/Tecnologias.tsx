@@ -9,6 +9,7 @@ import mui from "../../assets/MUI.png"
 import jest from "../../assets/jest.png"
 import git from "../../assets/git.png"
 import storybook from "../../assets/storybook.png"
+import typescript from "../../assets/typescript.png"
 
 const MockStacks = [
   {
@@ -20,6 +21,11 @@ const MockStacks = [
     icone: atomIcon,
     nome:'React',
     documentacao:'https://reactjs.org/',
+  },
+  {
+    icone: typescript,
+    nome:'TypeScript',
+    documentacao:'https://www.typescriptlang.org/',
   },
   {
     icone: styled,

@@ -49,9 +49,9 @@ export const WrapperTitles = styled.div`
     margin: 0 0 20px 0;
 
     div {
-      width: 100%; /* Ocupa toda a largura */
+      width: 90%; /* Ocupa toda a largura */
       text-align: left;
-      margin-top: 10px; /* Ajuste conforme necessário */
+      margin:0 20px 0 0; /* Ajuste conforme necessário */
     }
   }
 `;

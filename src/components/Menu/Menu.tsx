@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import * as S from "./styles.ts";
 import SideBar from "../SideBar/SideBar.tsx"; 
 
-
 export const MenuPage = () => {
-  const [selectedComponent, setSelectedComponent] = useState(null);
+  const [selectedComponent, setSelectedComponent] = useState<string | null>(null);
 
-  const handleButtonClick = (component) => {
-    setSelectedComponent(component);
+  const handleButtonClick = (componentRender: string | React.SetStateAction<null>) => {
+    setSelectedComponent(prevState => typeof componentRender === 'string' ? componentRender : prevState);
   };
 
   return (
