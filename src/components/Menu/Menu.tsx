@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import * as S from "./styles.ts";
 import SideBar from "../SideBar/SideBar.tsx"; 
 
