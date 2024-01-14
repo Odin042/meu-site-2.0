@@ -5,13 +5,13 @@ export const Container = styled.div`
   margin: 400px 0 80px 200px;
 
   @media (max-width: 768px) {
-    margin: 40px 0 0 0;
-    width: 100%;
+    margin: 0 0 80px 20px;
   }
 
   @media(max-width: 1440px) {
-    margin: 350px 0 80px 140px;
-
+    .carreira-container {
+      margin: 350px 0 80px 140px;
+    }
   } 
   
 `;

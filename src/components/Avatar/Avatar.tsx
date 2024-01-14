@@ -16,10 +16,10 @@ const AvatarPerson = () => {
           width: 200,
           height: 200,
           margin: "130px 0 0 80px",
-          "@media (max-width: 600px)": {
+          "@media (max-width:  768px)": {
             width: 150,
             height: 150,
-            margin: "50px 0 0 150px",
+            margin: "50px 0 0 10px",
           },
         }}
       />
@@ -29,9 +29,9 @@ const AvatarPerson = () => {
         sx={{
           width: "85%",
           margin: "20px 0 0 100px",
-          "@media (max-width: 600px)": {
+          "@media (max-width: 768px)": {
             width: 250,
-            margin: "20px 0 0 170px",
+            margin: "20px 0 0 50px",
           },
         }}
       />

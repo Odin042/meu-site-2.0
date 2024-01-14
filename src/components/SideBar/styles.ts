@@ -6,4 +6,5 @@ export const Container = styled.div`
 
 export const WrapperStacks = styled.div`
   margin: 0 0 980px 300px;
+
 `;

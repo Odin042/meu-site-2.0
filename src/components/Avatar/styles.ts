@@ -13,11 +13,12 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    margin: 0 190px 0 0;
     width: 100%;
 
     h2 {
       font-size: 30px;
-      margin: 30px 0 0 160px;
+      margin: 30px 0 0 20px;
     }
 
     h6 {
@@ -51,14 +52,10 @@ export const WrapperInfos = styled.div`
   margin: 0 0 0 100px; 
   gap: 50px;
 
-  @media (min-width: 320px ) and (max-width: 768px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     width: 50%;
-    margin: 20px 0 0 150px;
-  }
-
-  @media(max-width: 1440px) {
-    margin: 0 0 0 150px;
+    margin: 20px 0 0 20px;
   }
  
 `;
@@ -72,7 +69,7 @@ export const Description = styled.div`
   width: 80%;
 
   @media (max-width: 768px) {
-    margin: 40px 0 0 240px;
+    margin: 40px 0 0 40px;
     width: 220%;
     text-align: left;
   }

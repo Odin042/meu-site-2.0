@@ -78,12 +78,7 @@ const MockExperiencias = [
 
 const Experiencias = () => {
   return (
-    <S.Container>
-      {/* <Divider
-        orientation='vertical'
-        variant="middle"
-        sx={{ width: "15%", margin: "40px 0 0 90px", height: "800px" }}
-      /> */}
+    <S.Container className="carreira-container">
       <Typography variant="h4" component="h2" fontFamily={"Poppins"}>
         Carreira
       </Typography>

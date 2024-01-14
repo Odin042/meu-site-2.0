@@ -14,7 +14,7 @@ export const Container = styled.div`
         margin: 0 0 400px 180px;
 
         h2 {
-            margin: 40px 210px 0 0;
+            margin: 40px 320px 0 0;
         }
     } 
 `;
