@@ -66,14 +66,11 @@ const AvatarPerson = () => {
       </S.WrapperInfos>
       <S.Description>
         <Typography variant="subtitle1">
-          Apaixonado pelo que faço e pela vida, assim como sou entusiasmado pela
-          vida.
+          Apaixonado pelo que faço e pela vida, assim como sou entusiasmado pela vida. 
           <br />
-          Também sou apaixonado pelo desafio de ser programador e pelo mundo que
-          ele me proporciona.
+          Também sou apaixonado pelo desafio de ser programador e pelo mundo que ele me proporciona.
           <br />
-          Sou atleta da vida real, gamer em alguns momentos e gosto de codificar
-          algumas ideias às vezes.
+          Sou atleta da vida real, gamer em alguns momentos e gosto de codificar algumas ideias às vezes.
         </Typography>
       </S.Description>
     </S.Container>
