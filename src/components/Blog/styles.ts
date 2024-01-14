@@ -9,4 +9,8 @@ export const Container = styled.div`
     width: 100%;
     text-align: left;
   }
+
+  @media(min-width: 1440px) {
+    margin: 0 0 1080px 100px;
+  } 
 `;

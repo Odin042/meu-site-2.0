@@ -15,6 +15,8 @@ export const Container = styled.div`
     width: 100%;
     text-align: left;
   }
+
+  
 `;
 
 export const HighlightedButton = styled(Button)`
@@ -35,6 +37,10 @@ export const HighlightedButton = styled(Button)`
       width: 100%;
     }
   }
+
+  @media(max-width: 1440px) {
+    margin: 0 0 0 90px;
+  }
 `;
 
 export const MenuList = styled(List)`
@@ -46,9 +52,13 @@ export const MenuList = styled(List)`
     width: 100%;
     text-align: left;
   }
+
+  
 `;
 
 export const StyledListItem = styled(ListItem)`
   padding: 0;
   margin: 0;
+
+  
 `;

@@ -2,12 +2,18 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-  margin: 0 0 80px 200px;
+  margin: 400px 0 80px 200px;
 
-  @media (min-width: 320px ) and (max-width: 768px) {
+  @media (max-width: 768px) {
     margin: 40px 0 0 0;
     width: 100%;
   }
+
+  @media(max-width: 1440px) {
+    margin: 350px 0 80px 140px;
+
+  } 
+  
 `;
 
 export const WrapperDetails = styled.div`
@@ -17,10 +23,14 @@ export const WrapperDetails = styled.div`
   margin: 30px 0 0 0;
   gap: 20px;
 
-  @media (min-width: 320px ) and (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 100%;
     flex-direction: column;
   }
+
+  @media(min-width: 1440px) {
+    width: 70%;
+  } 
 `;
 
 export const WrapperDetail = styled.div`
@@ -33,7 +43,7 @@ export const Detail = styled.div`
   flex-direction: column;
   margin-right: 10px;
 
-  @media (min-width: 320px ) and (max-width: 768px) {
+  @media (max-width: 768px) {
     text-align: left;
   }
 `;
@@ -43,7 +53,7 @@ export const WrapperTitles = styled.div`
   align-items: center;
   gap: 20px;
 
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     width: 100%;
     margin: 0 0 20px 0;

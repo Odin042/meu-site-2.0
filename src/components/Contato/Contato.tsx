@@ -18,7 +18,7 @@ const Contato = () => {
       </S.Contacts>
       <S.Contacts>
         <LinkedInIcon />
-        <Link href="www.linkedin.com/in/dev-guilherme-fernandes/" underline="hover" fontFamily={"Poppins"}>
+        <Link href="http://linkedin.com/in/dev-guilherme-fernandes/" underline="hover" fontFamily={"Poppins"}>
             www.linkedin.com/in/dev-guilherme-fernandes/
         </Link>
       </S.Contacts>
