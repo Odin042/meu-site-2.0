@@ -31,7 +31,7 @@ const AvatarPerson = () => {
           margin: "20px 0 0 100px",
           "@media (max-width: 768px)": {
             width: 250,
-            margin: "20px 0 0 50px",
+            margin: "20px 0 0 30px",
           },
         }}
       />

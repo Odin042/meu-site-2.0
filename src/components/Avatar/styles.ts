@@ -55,7 +55,7 @@ export const WrapperInfos = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     width: 50%;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 10px;
   }
  
 `;
