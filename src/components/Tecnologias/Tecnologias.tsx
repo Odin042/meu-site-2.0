@@ -73,7 +73,7 @@ const Tecnologias = () => {
       </Typography>
       <S.Titles>
         <Typography variant="h6">
-          Abaixo são algumas tecnlogias que eu ja trabalhei ou que simplemente  eu gosto de trabalhar.
+          Abaixo estão algumas tecnologias com as quais já trabalhei ou que simplesmente gosto de trabalhar.
         </Typography>
       </S.Titles>
       <S.WrapperStacks>
