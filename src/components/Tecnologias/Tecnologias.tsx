@@ -40,7 +40,7 @@ const MockStacks = [
   {
     icone: nodejs,
     nome:'NodeJS',
-    documentacao:'https://chakra-ui.com/',
+    documentacao:'https://nodejs.org/en',
   },
   {
     icone: mui,

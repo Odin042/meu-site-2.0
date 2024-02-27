@@ -13,12 +13,12 @@ const AvatarPerson = () => {
         alt="Guilherme Fernandes"
         src={avatarImage}
         sx={{
-          width: 200,
-          height: 200,
+          width: 300,
+          height: 300,
           margin: "130px 0 0 80px",
           "@media (max-width:  768px)": {
-            width: 150,
-            height: 150,
+            width: 200,
+            height: 200,
             margin: "50px 0 0 10px",
           },
         }}
@@ -66,9 +66,9 @@ const AvatarPerson = () => {
       </S.WrapperInfos>
       <S.Description>
         <Typography variant="subtitle1">
-          Apaixonado pelo que faço e pela vida, assim como sou entusiasmado pela vida. 
+          Apaixonado pelo que faço e pela vida. 
           <br />
-          Também sou apaixonado pelo desafio de ser programador e pelo mundo que ele me proporciona.
+          Também sou entusiasmado pelo desafio de ser programador e pelo mundo que ele me proporciona.
           <br />
           Sou atleta da vida real, gamer em alguns momentos e gosto de codificar algumas ideias às vezes.
         </Typography>
